@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUAVITÉ</title>
+    <link rel="shortcut icon" href="IMG/logo_suavite.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/carousel.css">
+    <link rel="stylesheet" href="CSS/_carousel-adjust.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+
+<body class="page-grid">
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html">
+                <img src="IMG/logo_suavite.jpeg" alt="logo Suavitè" class="header__container_logo"></a>
+
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#loja">Loja</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#contato">Contato</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#blog">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__cart">
+                <button class="cart__button">
+                    <span class="cart__icon">&#128722;</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="carousel-bar">
+        <div class="carousel-bar__text">
+            SOS.
+        </div>
+    </div>
+
+    <main class="main">
+    <section class="main__section">
+        <div class="carousel" id="perfumeCarousel">
+            <h2 class="main__title">Promoções</h2>
+            <button class="carousel__btn prev" aria-label="Anterior">‹</button>
+            <div class="carousel__viewport">
+                <div class="carousel__track">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="HTML/menta/saboneteLiquido_menta.html">
+                                <img src="IMG/menta/sabonete liquido_ menta e eucalipto.jpeg"
+                                    alt="Sabonete Líquido Menta e eucalipto" class="product-img" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3>Sabonete Líquido Menta e Eucalipto</h3>
+                            <p>R$ 24,00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <a href="HTML/maracuja/saboneteLiquido_maracuja.html">
+                            <div class="product-image">
+                                <img src="IMG/maracuja/sabonete_liquido_maracuja.jpeg"
+                                    alt="Sabonete Líquido Maracujá e Camomila" class="product-img" loading="lazy">
+                            </div>
+                        </a>
+                        <div class="product-info">
+                            <h3>Sabonete Líquido Maracujá e Camomila</h3>
+                            <p>R$ 25,00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="HTML/alecrim/cremeMassageador_Alecrim">
+                                <img src="IMG/alecrim/creme-corporal-alecrim.jpeg" alt="Creme Corporal Alecrim"
+                                    class="product-img" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3>Creme Corporal Alecrim</h3>
+                            <p>R$ 30,00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="HTML/camomila/cremeMassageador_camomila.html">
+                                <img src="IMG/camomila/creme corporal_camomila.jpeg" alt="Creme Corporal Camomila"
+                                    class="product-img" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3>Creme Corporal Camomila</h3>
+                            <p>R$ 24,00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="HTML/lavanda/cremeMassageador_lavanda.html">
+                                <img src="IMG/lavanda/creme corporal_lavanda.jpeg" alt="Creme Corporal Lavanda"
+                                    class="product-img" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3>Creme Corporal Lavanda</h3>
+                            <p>R$ 49,00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <a href="HTML/acai/cremeMassageador_Acai.html">
+                                <img src="IMG/acai/creme_massageador_acai.jpeg" alt="Creme Corporal Açaí" class="product-img" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <h3>Creme Corporal Açaí</h3>
+                            <p>R$ 39,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel__btn next" aria-label="Próximo">›</button>
+        </div>
+    </section>
+</main>
+
+        <hr>
+
+        <article class="cards-produtos">
+            <h2 class="main__title">Produtos</h2>
+            <div class="conjunto-cards">
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/menta/saboneteLiquido_menta.html">
+                            <img src="IMG/menta/sabonete liquido_ menta e eucalipto.jpeg" alt="Sabonete Menta"
+                                class="grid-card__img" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Sabonete Menta</h3>
+                        <p>R$ 24,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/maracuja/saboneteLiquido_maracuja.html">
+                            <img src="IMG/maracuja/sabonete_liquido_maracuja.jpeg" alt="Sabonete Maracujá"
+                                class="grid-card__img" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Sabonete Maracujá</h3>
+                        <p>R$ 25,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/lavanda/saboneteLiquido_lavanda.html">
+                            <img src="IMG/lavanda/sabonete_liquido_lavanda.jpeg" alt="Sabonete Lavanda"
+                                class="grid-card__img" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Sabonete Lavanda </h3>
+                        <p>R$ 32,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/camomila/saboneteLiquido_camomila.html">
+                            <img src="IMG/camomila/sabonete_liquido_camomila.jpeg" alt="Sabonete Camomila" class="grid-card__img"
+                                loading="lazy"> </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Sabonete Camomila </h3>
+                        <p>R$ 33,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/alecrim/saboneteLiquido_Alecrim.html">
+                            <img src="IMG/alecrim/sabonete_liquido_alecrim.jpeg" alt="Sabonete Alecrim" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Sabonete Alecrim</h3>
+                        <p>R$ 28,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/acai/saboneteLiquido_Acai.html">
+                            <img src="IMG/acai/sabonete_liquido_acai.jpeg" alt="Sabonete Açaí" class="grid-card__img" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Sabonete Açaí</h3>
+                        <p>R$ 39,00</p>
+                    </div>
+                </div>
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/menta/hidratanteCorporal_menta.html">
+                            <img src="IMG/menta/hidratante_menta.jpeg" alt="Hidratante Menta" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Hidratante Menta </h3>
+                        <p>R$ 30,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/maracuja/hidratanteCorporal_maracuja.html">
+                            <img src="IMG/maracuja/hidratante_maracuja.jpeg" alt="Hidratante Maracuja" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Hidratante Maracuja</h3>
+                        <p>R$ 30,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/lavanda/hidratanteCorporal_lavanda.html">
+                            <img src="IMG/lavanda/creme corporal_lavanda.jpeg" alt="Hidratante Lavanda" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Hidratante Lavanda</h3>
+                        <p>R$ 22,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/camomila/hidratanteCorporal_camomila.html">
+                            <img src="IMG/camomila/creme corporal_camomila.jpeg" alt="Hidratante Camomila" class="grid-card__img" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Hidratante Camomila</h3>
+                        <p>R$ 24,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/alecrim/hidratanteCorporal_Alecrim.html">
+                            <img src="IMG/alecrim/creme-corporal-alecrim.jpeg" alt="Hidratante Alecrim" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Hidratante Alecrim</h3>
+                        <p>R$ 34,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/acai/hidratanteCorporal_Acai.html">
+                            <img src="IMG/acai/hidratante_acai.jpeg" alt="Hidratante Acaí" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Hidratante Acaí</h3>
+                        <p>R$ 45,00</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/menta/oleoCorporal_menta.html">
+                            <img src="IMG/menta/oleo_corporal_menta.jpeg" alt="Óleo Corporal Menta" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Óleo Corporal Menta </h3>
+                        <p>R$ 29,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/maracuja/oleoCorporal_maracuja.html">
+                            <img src="IMG/maracuja/oleo_corporal_maracuja.jpeg" alt="Óleo Corporal Maracuja" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Óleo Corporal Maracuja</h3>
+                        <p>R$ 39,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/lavanda/oleoCorporal_lavanda.html">
+                            <img src="IMG/lavanda/oleo_corporal_lavanda.jpeg" alt="Óleo Corporal Lavanda" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Óleo Corporal Lavanda </h3>
+                        <p>R$ 22,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/camomila/oleoCorporal_camomila.html">
+                            <img src="IMG/camomila/oleo_corporal_camomila.jpeg" alt="Óleo Corporal Camomila" class="grid-card__img" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Óleo Corporal Camomila</h3>
+                        <p>R$ 39,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/alecrim/oleoCorporal_Alecrim.html">
+                            <img src="IMG/alecrim/oleo_corporal-alecrim.jpeg" alt="Óleo Corporal Alecrim" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Óleo Corporal Alecrim</h3>
+                        <p>R$ 34,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/acai/oleoCorporal_Acai.html">
+                            <img src="IMG/acai/oleo_corporal_acai.jpeg" alt="Óleo Corporal Acaí" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Óleo Corporal Acaí</h3>
+                        <p>R$ 49,00</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/menta/gelparaBanho_menta.html">
+                            <img src="IMG/menta/gel_para_banho_menta.jpeg" alt="Gel para Banho Menta" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Gel para Banho Menta </h3>
+                        <p>R$ 29,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/maracuja/gelparaBanho_maracuja.html">
+                            <img src="IMG/maracuja/gel_para_banho_maracuja.jpeg" alt="Gel para Banho Maracuja" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Gel para Banho Maracuja</h3>
+                        <p>R$ 39,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/lavanda/gelparaBanho_lavanda.html">
+                            <img src="IMG/lavanda/gel_para_banho_lavanda.jpeg" alt="Gel para Banho Lavanda" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Gel para Banho Lavanda </h3>
+                        <p>R$ 22,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/camomila/gelparaBanho_camomila.html">
+                            <img src="IMG/camomila/gel_para_banho_camomila.jpeg" alt="Gel para Banho Camomila" class="grid-card__img" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Gel para Banho Camomila </h3>
+                        <p>R$ 39,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/alecrim/gelparaBanho_Alecrim.html">
+                            <img src="IMG/alecrim/gel_para_banho_alecrim.jpeg" alt="Gel para Banho Alecrim" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Gel para Banho Alecrim</h3>
+                        <p>R$ 34,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/acai/gelparaBanho_Acai.html">
+                            <img src="IMG/acai/gel_para_banho_acai.jpeg" alt="Gel para Banho Acaí" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Gel para Banho Acaí</h3>
+                        <p>R$ 49,00</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/menta/cremeMassageador_menta.html">
+                            <img src="IMG/menta/creme_massageador_menta.jpeg" alt="Creme Massageador Menta" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Creme Massageador Menta  </h3>
+                        <p>R$ 29,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/maracuja/cremeMassageador_maracuja.html">
+                            <img src="IMG/maracuja/creme_massageador_corporal_maracuja.jpeg" alt="Creme Massageador Maracuja" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Creme Massageador Maracuja</h3>
+                        <p>R$ 39,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/lavanda/cremeMassageador_lavanda.html">
+                            <img src="IMG/lavanda/massageador_corporal_lavanda.jpeg" alt="Creme Massageador Lavanda" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Creme Massageador Lavanda</h3>
+                        <p>R$ 22,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/camomila/cremeMassageador_camomila.html">
+                            <img src="IMG/camomila/creme_massagem_camomila.jpeg" alt="Creme Massageador Camomila" class="grid-card__img" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Creme Massageador Camomila </h3>
+                        <p>R$ 24,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/alecrim/cremeMassageador_Alecrim.html">
+                            <img src="IMG/alecrim/creme_massagem_alecrim.jpeg" alt="Creme Massageador Alecrim" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Creme Massageador Alecrim</h3>
+                        <p>R$ 45,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/acai/cremeMassageador_Acai.html">
+                            <img src="IMG/acai/creme_massageador_acai.jpeg" alt="Creme Massageador Acaí" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Creme Massageador Acaí</h3>
+                        <p>R$ 45,00</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/menta/bodySplash_menta.html">
+                            <img src="IMG/menta/body_splash_menta.jpeg" alt="Body Splash Menta" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Body Splash Menta </h3>
+                        <p>R$ 29,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/maracuja/bodySplash_maracuja.html">
+                            <img src="IMG/maracuja/body_splash_maracuja.jpeg" alt="Body Splash Maracuja" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Body Splash Maracuja</h3>
+                        <p>R$ 39,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/lavanda/bodySplash_lavanda.html">
+                            <img src="IMG/lavanda/body_splash_lavanda.jpeg" alt="Body Splash Lavanda" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Body Splash Lavanda </h3>
+                        <p>R$ 22,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/camomila/bodySplash_camomila.html">
+                            <img src="IMG/camomila/body_splash_camomila.jpeg" alt="Body Splash Camomila" class="grid-card__img" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Body Splash Camomila </h3>
+                        <p>R$ 39,00</p> </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/alecrim/bodySplash_Alecrim.html">
+                            <img src="IMG/alecrim/body_splash_alecrim.jpeg" alt="Body Splash Alecrim" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Body Splash Alecrim</h3>
+                        <p>R$ 34,00</p>
+                    </div>
+                </div>
+
+                <div class="grid-card">
+                    <div class="grid-card__image">
+                        <a href="HTML/acai/bodySplash_Acai.html">
+                            <img src="IMG/acai/body_splash_acai.jpeg" alt="Body Splash Acaí" class="grid-card__img"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="grid-card__info">
+                        <h3>Body Splash Acaí</h3>
+                        <p>R$ 49,00</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <script src="JAVASCRIPT/script.js"></script>
+</body>
+
+</html>
+
